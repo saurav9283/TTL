@@ -45,6 +45,7 @@
 }
 @media only screen and (max-width: 395px) {
   .banner{
-    width: 456px;
+    margin-right: 50px;
+    width: 360px;
   }
 }

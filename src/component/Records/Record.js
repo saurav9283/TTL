@@ -59,7 +59,7 @@ function Record() {
         {jsonData.map((item, index) => (
           <div key={index}>
             <div className="content-container">
-              <h2>{item.heading}</h2>
+              <p>{item.heading}</p>
               <img src={like} alt="" className="likeIn" />
             </div>
             <p className="subheading">{item.subheading}</p>
@@ -77,7 +77,9 @@ function Record() {
                 </span>
               </div>
             </div>
+            <hr />
           </div>
+          
         ))}
       </div>
     </div>
