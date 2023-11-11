@@ -11,7 +11,7 @@
   content: '';
   position: absolute;
   height: 2px;
-  width: 16rem;
+  width: 22rem;
   background-color: lightgray;
   top: 100%;
   left: 100%;
@@ -80,13 +80,16 @@
   margin: 0;
 }
 .hr{
-  margin-left: -12rem;
-  width: 25rem;
+  margin-left: -8rem;
+  width: 26rem;
 }
 
 @media only screen and (max-width: 395px) {
   .divider{
     margin-left: 1%;
+  }
+  .divider::after {
+    width: 16rem;
   }
   .container {
     margin-left: 39%;
@@ -108,12 +111,16 @@
     width: 21rem;
   }
   .p1{
-    font-size: small;
+    font-size: 12px;
   }
   .p2{
-    font-size: small;
+    font-size: 12px;
   }
   .p3{
-    font-size: small;
+    font-size: 12px;
+  }
+  .hr{
+    margin-left: -8rem;
+    width: 21rem;
   }
 }
