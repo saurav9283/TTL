@@ -108,7 +108,7 @@
   }
   .subheading {
     white-space: pre-wrap;
-    width: 23rem;
+    width: 22rem;
   }
   .p1{
     font-size: 12px;
@@ -118,7 +118,7 @@
   }
   .p3{
     position: absolute;
-    right: 0;
+    right: 6%;
     font-size: 12px;
   }
   .hr{
@@ -159,10 +159,61 @@
   .p3{
     font-size: 12px;
     position: absolute;
-    right: 3%;
+    right: 10px;
   }
   .hr{
     margin-left: -11rem;
     width: 31rem;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .content-container img {
+    margin-right: 80px;
+  }
+  .subheading {
+    width: 22rem;
+  }
+}
+@media only screen and (min-width: 430px) {
+  .content-container img {
+    margin-right: 50px;
+  }
+  .subheading {
+    width: 23.5rem;
+  }
+  .p2{
+    font-size: 12px;
+  }
+  .p3{
+    font-size: 12px;
+    position: absolute;
+    right: 7%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .p2{
+    font-size: 12px;
+  }
+  .p3{
+    font-size: 12px;
+    position: absolute;
+    margin-right: 5%;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .content-container img {
+    margin-right: 50px;
+  }
+  .subheading {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .content-container img {
+    margin-right: 1px;
+  }
+  .subheading {
+    width: 28rem;
   }
 }
