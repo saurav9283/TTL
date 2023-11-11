@@ -1,0 +1,85 @@
+.divider {
+  position: relative;
+  border-top: 2px solid lightgray;
+  width: 100px;
+  margin-left: 31%;
+  border-right: 2px solid lightgray;
+  height: 35px;
+}
+
+.divider::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 24rem;
+  background-color: lightgray;
+  top: 100%;
+  left: 100%;
+}
+
+.post {
+  color: rgb(34, 167, 219);
+  font-weight: 500;
+}
+
+.container {
+  margin-left: 43%;
+  width: 300px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
+.content-container h2 {
+  margin-left: -8.3rem;
+  white-space: nowrap;
+}
+
+.content-container img {
+  margin-left: auto;
+  height: 20px;
+  width: 20px;
+}
+
+.subheading {
+  margin-left: -8rem;
+  margin-top: 0;
+  text-align: justify;
+}
+.parent-container {
+  display: flex;
+  align-items: center;
+}
+
+.navdiv {
+  display: flex;
+  margin-left: -8rem;
+}
+.p1{
+  color: rgb(14, 189, 189);
+  font-weight: 500;
+}
+.p2
+{
+  color: rgb(55, 41, 41);
+  font-weight: 500;
+}
+.p3{
+  color: gray;
+}
+
+.navdiv p {
+  margin-right: 10px;
+}
+
+.parent-container > div span p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 395px) {
+  .divider{
+    margin-left: 1%;
+  }
+}
