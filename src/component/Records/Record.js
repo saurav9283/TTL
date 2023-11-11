@@ -77,7 +77,7 @@ function Record() {
                 </span>
               </div>
             </div>
-            <hr />
+            <hr className="hr"/>
           </div>
           
         ))}
