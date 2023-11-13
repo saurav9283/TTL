@@ -20,7 +20,7 @@
 .verticalLine {
     height: 80%; 
     margin-top: 6px;
-    border-right: 2px solid rgba(255, 255, 0, 0.477); 
+    border-right: 2px solid rgba(255, 255, 0, 0.867); 
     margin-right:24rem; 
 }
 .navname{
@@ -34,8 +34,8 @@
     margin-top: -42px;
 }
 .course button {
-    background-color: rgb(191, 199, 33); 
-    color: white; 
+    background-color: yellow; 
+    color: black; 
     padding: 10px 20px; 
     border: none; 
     border-radius: 6px;

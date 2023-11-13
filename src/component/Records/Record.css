@@ -204,12 +204,13 @@
     width: 23.5rem;
   }
   .p2{
+    margin-top: 20px;
     font-size: 12px;
   }
   .p3{
     font-size: 12px;
     position: absolute;
-    right: 7%;
+    /* right: 7%; */
   }
 }
 @media only screen and (max-width: 360px) {
