@@ -2,7 +2,7 @@
   position: relative;
   border-top: 2px solid lightgray;
   width: 100px;
-  margin-left: 31%;
+  margin-left: 32%;
   border-right: 2px solid lightgray;
   height: 35px;
 }
@@ -75,6 +75,7 @@
 .navdiv p {
   margin-right: 10px;
 }
+
 
 .parent-container > div span p {
   margin: 0;
@@ -164,14 +165,6 @@
   .hr{
     margin-left: -11rem;
     width: 31rem;
-  }
-}
-@media only screen and (min-width: 375px) {
-  .content-container img {
-    margin-right: 80px;
-  }
-  .subheading {
-    width: 22rem;
   }
 }
 @media only screen and (max-width: 430px) {
