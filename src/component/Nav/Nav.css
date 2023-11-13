@@ -77,7 +77,18 @@
         margin-left: 16rem;
     }
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 401px) and (max-width: 431px) {
+    .nav{
+        width: 33rem;
+    }
+    .logo{
+        left: 50px;
+    }
+    .navname{
+        margin-right: 100px;
+    }
+  }
+@media only screen and (max-width: 400px) {
     .nav {
         top: 0;
         left: 10%;
@@ -107,8 +118,8 @@
         margin-left: 19rem;
     }
 }
-@media only screen and (min-width: 375px) {
+/* @media only screen and (min-width: 375px) {
     .course{
         margin-left: 14rem;
     }
-}
+} */

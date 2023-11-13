@@ -92,7 +92,29 @@
     font-weight: 400;
     margin-top: -5px;
   }
-
+  @media only screen and (max-width: 430px) {
+    .profile{
+      margin-left: -10rem;
+  }
+  .box{
+      margin-left: 39%;
+      margin-top: -10px;
+    }
+    .rating-title {
+      font-size: 13px;
+       margin-top: 10px;
+      margin-left: -80px;
+    }
+    .headTitle{
+      margin-left: -100px;
+    }
+    .instalink{
+      margin-left: -105px;
+    }
+    .likes-container span{
+      margin-left: 25px;
+    }
+  }
   @media only screen and (max-width: 395px) {
     .profile{
         margin-left: -8rem;
@@ -126,7 +148,7 @@
         margin-left: 3rem;
       }
   }
-  @media only screen and (min-width: 400px) {
+  @media only screen and (max-width: 400px) {
     .profile{
         margin-left: -10rem;
     }

@@ -126,7 +126,7 @@
     width: 24rem;
   }
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
   .divider{
     margin-left: 1%;
   }
@@ -174,7 +174,29 @@
     width: 22rem;
   }
 }
-@media only screen and (min-width: 430px) {
+@media only screen and (max-width: 430px) {
+  .content-container img {
+    margin-right: 50px;
+  }
+  .subheading {
+    width: 23.5rem;
+  }
+  .p2{
+    font-size: 12px;
+  }
+  .p3{
+    font-size: 12px;
+    position: absolute;
+    right: 7%;
+  }
+  .divider{
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 432px){
+  .divider{
+    margin-left: 2%;
+  }
   .content-container img {
     margin-right: 50px;
   }
