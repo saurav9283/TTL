@@ -1,32 +1,29 @@
 .nav {
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: black;
-    width: 30rem;
-    height: 5rem;
+    width: 98%;
+    height: 50px;
+    padding: 15px;
 }
 .logoContainer{
     position: relative;
 }
 .logo {
     height: 3rem;
-    padding: 12px;
-    border-radius: 50%;
     position: absolute;
-    left: 10px; 
+    left: 40px; 
+    border-radius: 0;
 }
 .verticalLine {
     height: 80%; 
-    margin-top: 6px;
-    border-right: 2px solid rgba(255, 255, 0, 0.867); 
-    margin-right:24rem; 
+    margin-top: 8px;
+    border-right: 2px solid yellow; 
+    margin-right: 71rem; 
 }
 .navname{
     color: aliceblue;
-    margin-top: -60px;
-    margin-right: 160px;
+    margin-top: -50px;
+    margin-right: 910px;
     letter-spacing: 5px;
 }
 .course{
@@ -36,90 +33,133 @@
 .course button {
     background-color: yellow; 
     color: black; 
-    padding: 10px 20px; 
+    padding: 8px 15px; 
     border: none; 
+    float: right;
     border-radius: 6px;
     cursor: pointer;
+    font-size: 16px;
+    margin-right: 50px;
 }
 
-/* iphone 12 pro view */
-@media only screen and (max-width: 395px) {
+@media only screen and  (max-width: 480px) {
     .nav {
-        top: 0;
-        left: 7%;
-        transform: translateX(-10%);
-        background-color: black;
-        width: 25.9rem;
-        height:5rem;
-    }
-    .logoContainer{
-        position: relative;
+        left: 5%;
+        transform: translateX(-5%);
+        width: 28rem;
     }
     .logo {
-        height: 2rem;
-        padding: 12px;
-        border-radius: 50%;
+        height: 3rem;
         position: absolute;
-        left: 10px;
-        margin-top: 10px; 
+        left: 30px; 
     }
+  
     .verticalLine {
-        margin-left: 65px;
+        margin-left: 6rem; 
         height: 80%; 
         margin-top: 8px;
     }
     .navname{
-        margin-top: -59px;
-        margin-right: 130px;
+        margin-top: -50px;
+        margin-right:120px;
         letter-spacing: 4px;
     }
-    .course{
-        margin-left: 16rem;
+    .course button {
+        padding: 10px 15px; 
+        font-size: 14px;
+        float: right;
+        margin-right: 20px;
     }
 }
-@media only screen and (min-width: 401px) and (max-width: 431px) {
-    .nav{
-        width: 33rem;
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .nav {
+        left: -2%;
+        width: 42.3rem;
     }
-    .logo{
-        left: 50px;
+  
+    .verticalLine {
+        margin-left: 6.5rem; 
     }
     .navname{
-        margin-right: 100px;
+        margin-top: -50px;
+        margin-right:340px;
     }
-  }
-@media only screen and (max-width: 400px) {
+    .course button {
+        padding: 10px 16px; 
+        font-size: 15px;
+        float: right;
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 460px) {
+   
     .nav {
-        top: 0;
-        left: 10%;
-        transform: translateX(-10%);
-        background-color: black;
-        width: 31rem;
-        height:5rem;
+        left: 5%;
+        width: 42rem;
     }
     .logo {
-        height: 2rem;
-        padding: 12px;
-        border-radius: 50%;
+        height: 3rem;
         position: absolute;
-        margin-top: 10px; 
+        left: 30px; 
     }
+  
     .verticalLine {
-        margin-right: 380px;
+        margin-left: 6rem; 
         height: 80%; 
         margin-top: 8px;
     }
     .navname{
-        margin-top: -59px;
-        margin-right: 130px;
+        margin-top: -50px;
+        margin-right:360px;
         letter-spacing: 4px;
     }
-    .course{
-        margin-left: 19rem;
+    .course button {
+        padding: 10px 15px; 
+        font-size: 14px;
+        float: right;
+        margin-right: 20px;
     }
 }
-/* @media only screen and (min-width: 375px) {
-    .course{
-        margin-left: 14rem;
+
+@media only screen and (max-width: 600px){
+    .nav {
+        left: 5%;
+        width: 40.5rem;
     }
-} */
+    .navname{
+        margin-right:340px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 600px){
+    .nav {
+        left: 5%;
+        width: 44.5rem;
+    }
+    .navname{
+        margin-right:380px;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 600px){
+    .nav {
+        left: 5%;
+        width: 42rem;
+    }
+    .navname{
+        margin-right:360px;
+    }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 600px){
+    .nav {
+        left: 5%;
+        width: 46.5rem;
+    }
+    .navname{
+        margin-right:410px;
+    }
+}

@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,29 +22,36 @@
   color: #61dafb;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 .banner {
-  height: 180px;
-  width: 480px;
-  margin-top: 5rem;
+  height: 300px;
+  width: 100%;
+  margin-top: 4.9rem;
   position: relative;
+
 }
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 480px) {
   .banner{
-    margin-right: 50px;
-    width: 400px;
+    margin-right: 100px;
+    width: 480px;
+    height: 230px;
   }
 }
-@media only screen and (max-width: 412px) {
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
   .banner{
-    width: 487px;
+    margin-right: 100px;
+    width: 695px;
+    height: 260px;
   }
 }
+
+
+@media only screen and (min-width: 350px) and (max-width: 460px) {
+  .banner{
+    width: 176%;
+  }
+}
+
+
+
+
