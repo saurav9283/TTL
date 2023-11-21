@@ -40,7 +40,7 @@ function Profile() {
           &nbsp;Followers &nbsp;&nbsp;&nbsp; Following
         </p>
       </div>
-      <div>
+      <div className="main">
         <p className="headTitle">Co-founder & CEO at Terribly Tiny Tales </p>
         <a href="https://www.instagram.com/anujgoslia" className="instalink">
           https://www.instagram.com/anujgoslia

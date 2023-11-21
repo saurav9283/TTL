@@ -60,7 +60,7 @@ function Record() {
           <div key={index}>
             <div className="content-container">
               <p>{item.heading}</p>
-              <img src={like} alt="" className="likeIn" />
+              <img className="likeIn"  src={like} alt=""  />
             </div>
             <p className="subheading">{item.subheading}</p>
             <div className="parent-container">

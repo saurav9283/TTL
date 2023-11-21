@@ -1,29 +1,33 @@
 .nav {
     position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: black;
-    width: 98%;
-    height: 50px;
-    padding: 15px;
+    width: 30rem;
+    height: 5rem;
 }
 .logoContainer{
     position: relative;
 }
 .logo {
     height: 3rem;
+    padding: 12px;
+    border-radius: 50%;
     position: absolute;
-    left: 40px; 
-    border-radius: 0;
+    left: 10px; 
+    
 }
 .verticalLine {
     height: 80%; 
-    margin-top: 8px;
-    border-right: 2px solid yellow; 
-    margin-right: 71rem; 
+    margin-top: 6px;
+    border-right: 2px solid rgba(255, 255, 0, 0.867); 
+    margin-right:24rem; 
 }
 .navname{
     color: aliceblue;
-    margin-top: -50px;
-    margin-right: 910px;
+    margin-top: -60px;
+    margin-right: 160px;
     letter-spacing: 5px;
 }
 .course{
@@ -33,133 +37,29 @@
 .course button {
     background-color: yellow; 
     color: black; 
-    padding: 8px 15px; 
+    padding: 10px 20px; 
     border: none; 
-    float: right;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 16px;
-    margin-right: 50px;
 }
-
-@media only screen and  (max-width: 480px) {
-    .nav {
-        left: 5%;
-        transform: translateX(-5%);
-        width: 28rem;
+@media only screen and (min-width: 374px) and (max-width: 460px) {
+    .nav{
+        width: 26.5rem;
+        left: 48%;
     }
-    .logo {
-        height: 3rem;
-        position: absolute;
-        left: 30px; 
+    .logo{
+        margin-top: 10px;
+        margin-left: 2rem;
+        height: 2rem;
+        width: 2rem;
     }
-  
-    .verticalLine {
-        margin-left: 6rem; 
-        height: 80%; 
-        margin-top: 8px;
+    .verticalLine{
+        margin-left:6rem;
     }
     .navname{
-        margin-top: -50px;
-        margin-right:120px;
-        letter-spacing: 4px;
+        margin-left: 2rem;
     }
-    .course button {
-        padding: 10px 15px; 
-        font-size: 14px;
-        float: right;
-        margin-right: 20px;
-    }
-}
-
-
-@media only screen and (min-width: 481px) and (max-width: 600px) {
-    .nav {
-        left: -2%;
-        width: 42.3rem;
-    }
-  
-    .verticalLine {
-        margin-left: 6.5rem; 
-    }
-    .navname{
-        margin-top: -50px;
-        margin-right:340px;
-    }
-    .course button {
-        padding: 10px 16px; 
-        font-size: 15px;
-        float: right;
-        margin-right: 25px;
-    }
-}
-
-@media only screen and (min-width: 350px) and (max-width: 460px) {
-   
-    .nav {
-        left: 5%;
-        width: 42rem;
-    }
-    .logo {
-        height: 3rem;
-        position: absolute;
-        left: 30px; 
-    }
-  
-    .verticalLine {
-        margin-left: 6rem; 
-        height: 80%; 
-        margin-top: 8px;
-    }
-    .navname{
-        margin-top: -50px;
-        margin-right:360px;
-        letter-spacing: 4px;
-    }
-    .course button {
-        padding: 10px 15px; 
-        font-size: 14px;
-        float: right;
-        margin-right: 20px;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .nav {
-        left: 5%;
-        width: 40.5rem;
-    }
-    .navname{
-        margin-right:340px;
-    }
-}
-
-@media only screen and (min-width: 414px) and (max-width: 600px){
-    .nav {
-        left: 5%;
-        width: 44.5rem;
-    }
-    .navname{
-        margin-right:380px;
-    }
-}
-
-@media only screen and (min-width: 390px) and (max-width: 600px){
-    .nav {
-        left: 5%;
-        width: 42rem;
-    }
-    .navname{
-        margin-right:360px;
-    }
-}
-
-@media only screen and (min-width: 430px) and (max-width: 600px){
-    .nav {
-        left: 5%;
-        width: 46.5rem;
-    }
-    .navname{
-        margin-right:410px;
+    .course{
+        margin-left: 16rem;
     }
 }
